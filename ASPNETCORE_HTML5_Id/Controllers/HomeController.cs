@@ -15,6 +15,12 @@ namespace ASPNETCORE_HTML5_Id.Controllers
             return View();
         }
 
+        public ActionResult Test()
+        {
+            return View();
+        }
+
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
